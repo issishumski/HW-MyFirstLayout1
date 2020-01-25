@@ -1,2 +1,39 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<head>
+    <title>Issi Shumski</title>
+</head>
+
+<body>
+    <section class=nav>
+        <div>Home</div>
+        <div>About</div>
+        <div>Work</div>
+        <div>Resume</div>        
+    </section>
+    <section class= issiShumski>
+        <div>ISSI SHUMSKI</div>
+        <div>Who Am I?
+            
+        </div>
+        <div>Things I Love</div>
+        <div>Connect With Me</div>
+    </section>   
+    <section class=aboutMe>
+        <p>Hi, my name is Issi Shumski. I am currently pursuing UX/UI design, completing a course from University of California, Irvine in March of 2020. I come originally from a theater and performance background, graduating with my BA is Drama with an Acting Emphasis in June 2018. I love understanding and connecting with why humans do what they do. Through design, I hope to continue my exploration on what people respond to and why they do.</p>
+        
+        <ol>
+            <li>Classical singing! I studied opera for two years and still love to practice...even if it is only in the safety of my room.</li>
+            <li>Hair and makeup artistry! Creating beautiful artwork while also helping people feel beautiful is very fulfilling.</li>
+            <li>Learning new languages! I love being able to speak and connect with others through language as well as culture.</li>
+        </ol>
+        <div> I would love to connect and work with you! Feel free to take a look at my work.</div>
+
+    </section>
+
+
+
+
+
+</body>

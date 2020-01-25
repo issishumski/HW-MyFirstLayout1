@@ -1,0 +1,141 @@
+#nav {
+    position: relative;
+    left:1300px;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    font-family: Playfair Display, arial, sans-serif;
+    }
+.issiShumski {
+    font-size: 40px;
+    font-family: Playfair Display, arial, sans-serif;
+    margin-top: -65px;
+}
+#aboutMe {
+    display:flex;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Playfair Display, arial, sans-serif;
+    padding-bottom:80px;
+}
+#home {
+    padding: 20px;
+}
+#about{
+    background-color:#CBD7B5;
+    border-radius: 300px;
+    padding: 20px;
+}
+#work {
+    padding: 20px;
+}
+#resume {
+    padding: 20px;
+}
+
+.content { 
+    display:grid;
+    grid-template-columns: 30% 20% 40%;
+    grid-template-rows: 30% 20% 40%;
+    grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";
+}
+
+.whoLeft {
+    grid-area: a;
+    font-size: 50px;
+    text-align: center;
+    font-family: Khula , arial, sans-serif;
+    background-color: #CBD7B5;
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.whoPic {
+    grid-area: b;
+    margin-left:-50px;
+    margin-top:30px;
+}
+
+.whoRight {
+    grid-area: c;
+    font-family: khula, arial, sans-serif;
+    font-size: 25px;
+}
+
+.thingsLeft {
+    grid-area: d;
+    font-size: 50px;
+    text-align: center;
+    font-family: Khula, arial, sans-serif;
+    background-color: #CBD7B5;
+    padding: 20px;
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.thingspic {
+    grid-area: e;
+    margin-left: -50px;
+}
+
+.thingsRight {
+    grid-area: f;
+    font-family: khula, arial, sans-serif;
+    font-size: 25px;
+
+
+}
+
+.connectLeft {
+    grid-area: g;
+    font-size: 50px;
+    text-align: center;
+    font-family: Khula, arial, sans-serif;
+    background-color: #CBD7B5;
+    padding: 20px;
+    margin-top: 30px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.connectPic {
+    grid-area: h;
+    margin-left:-50px;
+    margin-top: 50px;
+}
+.connectRight {
+    grid-area: i;
+    font-family: khula, arial, sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.socialMedia {
+    display: inline-block;
+    position: relative;
+    left: 1000px;
+    bottom: 550px;
+}
+.linkedIn {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 40px;
+    background-color: #CBD7B5;
+}
+.Instagram {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 40px;
+    background-color: #CBD7B5;
+}
